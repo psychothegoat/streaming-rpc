@@ -22,7 +22,7 @@ client.on('ready', () => {
     activities: [{
       name: 'Streaming',
       type: 'STREAMING',
-      url: 'https://twitch.tv/yourchannel', // Sostituisci con il tuo link
+      url: 'https://www.twitch.tv/psycho_bs_', // Sostituisci con il tuo link
       details: 'Check out my stream!', // Descrizione opzionale
       state: 'Live on Twitch', // Stato opzionale
       assets: {

@@ -3,7 +3,7 @@ import os
 from flask import Flask, send_file
 
 TOKEN = os.getenv("DISCORD_TOKEN")  # Token del bot
-STREAM_URL = "https://www.twitch.tv/yourchannel"  # URL dello streaming
+STREAM_URL = "https://www.twitch.tv/psycho_bs_"  # URL dello streaming
 LOGO_PATH = "stream_logo.png"  # Percorso del logo della stream
 HOST = "0.0.0.0"
 PORT = int(os.getenv("PORT", 5000))

@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "IlTuoNome",
+  "author": "PsychoTheGoat",
   "license": "MIT",
   "dependencies": {
     "discord.js-selfbot-v13": "^2.10.0",

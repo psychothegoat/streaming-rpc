@@ -1,12 +1,9 @@
 import discord
 import os
-from dotenv import load_dotenv
 from flask import Flask, send_file
 
-load_dotenv()  # Carica le variabili d'ambiente dal file .env
-
 TOKEN = os.getenv("DISCORD_TOKEN")  # Token del bot
-STREAM_URL = "https://www.twitch.tv/psycho_bs_"  # URL dello streaming
+STREAM_URL = "https://www.twitch.tv/yourchannel"  # URL dello streaming
 LOGO_PATH = "stream_logo.png"  # Percorso del logo della stream
 HOST = "0.0.0.0"
 PORT = int(os.getenv("PORT", 5000))
@@ -34,3 +31,4 @@ if __name__ == "__main__":
     from threading import Thread
     Thread(target=lambda: app.run(host=HOST, port=PORT)).start()
     client.run(TOKEN)
+

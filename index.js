@@ -22,12 +22,12 @@ client.on('ready', () => {
     activities: [{
       name: 'Streaming',
       type: 'STREAMING',
-      url: 'https://www.twitch.tv/psycho_bs_', // Sostituisci con il tuo link
-      details: 'Check out my stream!', // Descrizione opzionale
-      state: 'Live on Twitch', // Stato opzionale
+      url: 'https://guns.lol/777._', // Sostituisci con il tuo link
+      details: 'ᴘꜱʏᴄʜᴏ ☆', // Descrizione opzionale
+      state: 'PsychoTheGoat', // Stato opzionale
       assets: {
         large_image: 'stream_logo', // Nome dell'immagine caricata su Discord
-        large_text: 'Stream Logo', // Testo alternativo per l'immagine
+        large_text: 'PsychoTHeGoat', // Testo alternativo per l'immagine
       },
     }],
     status: 'online',
